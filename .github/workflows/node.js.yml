@@ -6,4 +6,4 @@ on:
     branches: [main]
 jobs:
   build:
-    uses: cto_af/workflows/.github/workflows/node-ci.yml@main
+    uses: cto-af/workflows/.github/workflows/node-ci.yml@main
