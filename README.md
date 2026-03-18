@@ -1,6 +1,6 @@
 # @cto.af/sample
 
-Description
+Sample project for cto.af workflows.  Nothing interesting here.
 
 ## Installation
 
