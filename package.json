@@ -7,7 +7,6 @@
     "lib/*"
   ],
   "type": "module",
-  "private": "true",
   "author": "Joe Hildebrand <joe-github@cursive.net>",
   "license": "MIT",
   "repository": {
