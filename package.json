@@ -1,6 +1,6 @@
 {
   "name": "@cto.af/sample",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "decription": "Sample project for @cto.af",
   "main": "lib/index.mjs",
   "files": [
