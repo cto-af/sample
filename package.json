@@ -22,7 +22,7 @@
     "lint": "eslint .",
     "test": "vitest --run",
     "docs": "typedoc",
-    "ts": "tsgo -b",
+    "ts": "tsc -b",
     "build": "npm run ts && npm run test && npm run lint && npm run docs && npm pack --dry-run"
   },
   "devDependencies": {
