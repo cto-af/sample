@@ -13,5 +13,12 @@ export default defineConfig(
   jsdoc,
   json,
   jts,
-  markdown
+  markdown,
+  {
+    files: ['tsconfig-base.json'],
+    language: 'json/jsonc',
+    languageOptions: {
+      allowTrailingCommas: true,
+    },
+  }
 );
