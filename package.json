@@ -22,22 +22,22 @@
     "lint": "eslint .",
     "test": "vitest --run",
     "docs": "typedoc",
-    "ts": "tsdown",
+    "ts": "tsgo -b",
     "build": "npm run ts && npm run test && npm run lint && npm run docs && npm pack --dry-run"
   },
   "devDependencies": {
-    "@cto.af/eslint-config": "6.2.8",
-    "@eslint/markdown": "8.0.1",
-    "eslint": "10.2.1",
-    "eslint-plugin-jsdoc": "62.9.0",
-    "tsdown": "0.21.10",
-    "typedoc": "0.28.19",
-    "typescript": "6.0.3",
-    "typescript-eslint": "8.59.1",
-    "vitest": "4.1.5",
-    "@vitest/coverage-v8": "4.1.5"
+    "@cto.af/eslint-config": "7.0.2",
+    "@eslint/markdown": "8.0.3",
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "@vitest/coverage-v8": "5.0.2",
+    "eslint-plugin-jsdoc": "64.5.4",
+    "eslint": "10.11.0",
+    "typedoc": "0.28.20",
+    "typescript-eslint": "8.70.1",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
+    "vitest": "5.0.2"
   },
-  "packageManager": "pnpm@11.0.1",
+  "packageManager": "pnpm@12.6.0",
   "engines": {
     "node": ">=22"
   }
