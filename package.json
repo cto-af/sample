@@ -26,7 +26,7 @@
     "build": "npm run ts && npm run test && npm run lint && npm run docs && npm pack --dry-run"
   },
   "devDependencies": {
-    "@cto.af/eslint-config": "7.0.2",
+    "@cto.af/eslint-config": "7.0.3",
     "@eslint/markdown": "8.0.3",
     "@typescript/native": "npm:typescript@^7.0.2",
     "@vitest/coverage-v8": "5.0.2",
