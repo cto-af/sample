@@ -9,5 +9,8 @@ export default defineConfig({
       include: ['src/*.ts'],
       reporter: ['text', 'lcov'],
     },
+    typecheck: {
+      enabled: true,
+    },
   },
 });
