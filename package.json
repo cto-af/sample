@@ -29,15 +29,15 @@
     "@cto.af/eslint-config": "7.0.3",
     "@eslint/markdown": "8.0.3",
     "@typescript/native": "npm:typescript@^7.0.2",
-    "@vitest/coverage-v8": "5.0.2",
-    "eslint-plugin-jsdoc": "64.5.4",
-    "eslint": "10.11.0",
+    "@vitest/coverage-v8": "5.0.5",
+    "eslint-plugin-jsdoc": "65.3.12",
+    "eslint": "10.13.0",
     "typedoc": "0.28.20",
-    "typescript-eslint": "8.70.1",
+    "typescript-eslint": "8.71.2",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
-    "vitest": "5.0.2"
+    "vitest": "5.0.5"
   },
-  "packageManager": "pnpm@12.6.0",
+  "packageManager": "pnpm@12.14.0",
   "engines": {
     "node": ">=22"
   }
